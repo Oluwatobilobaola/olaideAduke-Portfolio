@@ -752,7 +752,7 @@ form textarea{
     .box{
        margin-top: 40px;
        width: 300px;
-       margin-left: 40px;
+       margin-left: 50px;
        
     }
 
@@ -806,8 +806,7 @@ form textarea{
     }
 
     .top i{
-        margin-right: 80px;
-        align-items: center;
+        margin-left: 120px;
     }
 
    
