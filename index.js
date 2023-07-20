@@ -3,7 +3,6 @@ gsap.from('.box', { duration: 2, y: '-100%', ease: 'bounce' })
 gsap.fromTo('.home-text h1', {opacity: 0, scale: 0, rotation: 720}, {duration: 1, delay: 1 , opacity: 1, scale: 1, rotation: 0 })
 gsap.from('.about-part h3 span', { duration: 3, opacity: 0, delay: 1, stagger: .5 })
 
-
 const header = document.querySelector('header');
 window.addEventListener ('scroll', function() {
     header.classList.toggle ('sticky', window.scrollY > 100)
