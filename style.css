@@ -809,6 +809,19 @@ form textarea{
         margin-left: 120px;
     }
 
+    .animeX{
+      position: relative;
+      transition: all 3s ease;
+      opacity: 0;
+      transform: translateY(150px);
+    }
+    
+    .animeX.active{
+      transform: translateY(0px);
+      opacity: 1;
+    
+    }
+
    
 }
 
